@@ -1,0 +1,47 @@
+.container{
+    margin-top: 10px;
+    max-width: 60%;
+}
+.card-body{
+    max-width: 80%;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.card-body label, .card-body input{
+    padding: 10px;
+    margin: 5px;
+}
+
+.card-body label{
+
+}
+
+.card-body input{
+
+   background-color: rgb(216, 216, 216);
+}
+
+.btn-primary{
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.cuenta{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formulario{
+    padding: 10px;
+}
+
+.form-group{
+    margin: 20px;
+}
+
+span{
+    color: brown;
+}
