@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\logDos",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
