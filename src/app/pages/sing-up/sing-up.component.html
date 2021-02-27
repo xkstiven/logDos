@@ -7,7 +7,7 @@
               <div class="card-body">
                 <h1 class="card-title">Crear Nueva Cuenta</h1>
                 <div class="form-group">
-                    <span *ngIf="formSingUp.submitted && formSingUp.controls['email'].errors"> Campo Requerido</span>
+                    <span *ngIf="formSingUp.submitted && formSingUp.controls['email'].errors"> Email Requerido</span>
                     <input class="form-control"
                      id= "email"type="text" 
                      name="email"
@@ -16,7 +16,7 @@
                        required>
                 </div>
                 <div class="form-group">
-                    <span *ngIf="formSingUp.submitted && formSingUp.controls['name'].errors"> Campo Requerido</span>
+                    <span *ngIf="formSingUp.submitted && formSingUp.controls['name'].errors"> Nombre Requerido</span>
                     <input class="form-control"
                      id= "nombre"
                      type="text"
@@ -26,7 +26,7 @@
                        required>
                  </div>
                 <div class="form-group">
-                  <span *ngIf="formSingUp.submitted && formSingUp.controls['password'].errors"> Campo Requerido</span>
+                  <span *ngIf="formSingUp.submitted && formSingUp.controls['password'].errors"> Contraseña Requerida</span>
                      <input class="form-control"
                       id= "password"
                       type="password" 
